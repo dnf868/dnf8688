@@ -1,0 +1,64 @@
+
+#Floatingbar {
+	width: 110px;
+	height: 650px;
+	position: fixed;
+	top: 50%;
+	right: 0px;
+	margin-top: -340px;
+	padding-top: 30px;
+	padding-right: 18px;
+	padding-left: 62px;
+	background: url(../images/floatingbg.png) no-repeat left top;
+	z-index: 2500;
+}
+#Floatingbar .erweima {
+	width: 109px;
+	line-height: 20px;
+	text-align: center;
+	margin: 0px auto 10px auto;
+}
+#Floatingbar .erweima:hover {
+}
+#Floatingbar .erweima:hover img {
+	transform: scale(1.3);
+}
+#Floatingbar .erweima img {
+	width: 109px;
+	height: 109px;
+	margin-bottom: 3px;
+	background: #fff;
+	display: block;
+	transition: all 0.3s ease-in;
+}
+#Floatingbar .erweima span {
+	font-size: 13px;
+	color: #e7dbc0;
+}
+#Floatingbar ul {
+	margin-bottom: 7px;
+}
+#Floatingbar ul li {
+	line-height: 26px;
+	text-align: center;
+	color: #e7dbc0;
+	margin-bottom: 3px;
+}
+#Floatingbar ul li a {
+	display: block;
+}
+#Floatingbar ul li a img {
+	margin: 0 auto;
+	display: block;
+}
+#Floatingbar .downlist {
+	line-height: 2.14;
+	font-size: 14px;
+}
+#Floatingbar .downlist li a {
+	color: #dab974;
+}
+#Floatingbar .downlist li a:hover {
+	color: #e7dbc0;
+	text-decoration: none;
+}
