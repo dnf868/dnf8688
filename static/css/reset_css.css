@@ -1,0 +1,35 @@
+/* - - - - - - - - - 各浏览器样式默认值标准化  - - - - - - - - -*/
+html,body,span,object,iframe,h1,h2,h3,h4,h5,p,blockquote,pre,
+a,address,code,
+del,em,img,dl,dt,dd,ol,ul,li,
+fieldset,form,label{
+margin:0;padding:0;border:0;
+font-style:inherit;font-family:inherit;vertical-align:baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,audio,video{margin:0;padding:0;display: block;}
+html{-webkit-text-size-adjust:none;}
+img{border:none;vertical-align:middle;}
+input,select,button{padding:0;margin:0;outline:none;font-family:inherit;vertical-align:middle;}
+textarea{font-family:inherit;padding:0;margin:0;}
+button{cursor:pointer;}
+html{overflow-x:hidden;}
+body{font-size:12px;background-color:#1a1b20;font-family:'Microsoft YaHei';    background: url(../images/bg_s8a1.jpg) no-repeat fixed center top;
+    min-width: 1031px;
+    background-size: cover!important;}
+ul,ol{list-style-type:none;}
+h1{font-size:24px;}
+h2{font-size:18px;}
+h3,h4{font-size:14px;}
+h5{font-size:12px;}
+i,em,address{font-style:normal;}
+a{ text-decoration:none;color:#4f4f4f;}
+a:hover{transition:color 200ms linear 0s,background-color 200ms linear 0s,border-color 200ms linear 0s;color:#ab8324;}
+a:active{}	/*点击与释放时*/
+a:visited{}/* 访问过 */
+/*  - - - - - - - - - 常用类样式  - - - - - - - - -*/
+.photo_fullsize img{display:block;width:100%;height:100%;}	/*图片全尺寸*/
+.no_bor{ border:none!important;}	/*无边框*/
+.no_bg{ background:none!important;}	/*无背景*/
+.clear{ display:block;height:0; line-height:0;overflow:hidden; clear:both;font-size:0;}/*清除浮动*/
+.clear_::after{content:"";display:block; clear:both;height:0; line-height:0; overflow:hidden;}/*清除浮动*/
+.center{margin:0 auto;width:1280px;}	/*让内容区块居中*/
+
